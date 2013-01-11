@@ -1,0 +1,8 @@
+
+MainView -->
+             1* SideBarView
+             2* Content --> 2.1* ContentHeaderView
+                            2.2  SubCatListView
+                            2.3  ProductListView  --> 2.3.1 --> ProductView
+                            2.4* FooterView
+         

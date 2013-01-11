@@ -1,0 +1,178 @@
+.newspaper
+{
+-moz-column-count:4;
+-webkit-column-count:4;
+column-count:4;
+-moz-column-gap:10px;
+-webkit-column-gap:10px;
+column-gap:10px;
+}
+
+
+.sub_categories{
+height: auto;
+margin: 0;
+margin-bottom: 5px;
+}
+
+
+
+ul.sub_categories li{
+height: auto;
+margin: 0;
+font-size: 12px;
+  width:20%;
+  list-style: none;
+  float: left;
+}
+
+
+
+.sub_categories_header{
+display: block;
+font-size: 12px;
+font-weight: bold;
+line-height: 19px;
+color: #784797;
+text-transform: uppercase;
+}
+
+
+.span_products{
+width: 22.9%;
+}
+
+
+.product_weight{
+width: 66%;
+margin-top: 10px;
+}
+
+
+#product_img{
+max-width: 70%;
+max-height: 140px;
+}
+
+
+h3 {
+float: left;
+margin: 0 0 0 21px;
+}
+
+
+#row-fluid {
+margin: 0;
+}
+
+
+ul{
+margin:0;
+}
+
+
+div.span12 ul li.span3{
+margin: 16px 20px 0 0;
+text-align: center;
+
+}
+
+
+.quick_view {
+width: 66%;
+height: 34px;
+position: absolute;
+z-index: 2;
+background: rgba(10, 10, 10, 0.48);
+color: #DFDADA;
+text-align: center;
+display: none;
+margin-left: 15%;
+box-shadow: 0px 0px 3px #EBE6E6;
+border: 1px solid #555353;
+border-radius: 21px;
+top: 70px;
+}
+
+
+div.product_div:hover #quick_view{
+display:block;
+}
+
+
+ul#product_results li.span2{
+width:17.4%;
+margin-top: 21px;
+}
+
+
+.product {
+width: 20%;
+height: 250px;
+float: left;
+position: relative;
+}
+
+
+img #product_img:hover #quick_view{
+display:block;
+}
+
+
+#footer {
+margin-top: 40px;
+}
+
+
+.select_arrow {
+	background: url("../img/menu-active.png") no-repeat scroll right center transparent !important;
+}
+
+
+.search_result{
+clear: both;
+position: relative;
+}
+
+
+
+.product_div {
+padding: 3px;
+border: 1px solid #CDCDCD;
+border-radius: 5px;
+position: relative;
+}
+
+
+
+#span12 {
+padding-left: 12px;
+margin-top: 21px;
+}
+
+#product_list {
+padding-left: 12px;
+}
+
+
+ul#category li{
+  width:20%;
+  list-style: none;
+  float: left;
+  font-size:10px;
+}
+
+.category {
+width: 93%;
+background-color: rgba(255, 253, 253, 0.77);
+float: left;
+margin-bottom: 5px;
+padding-top: 2px;
+padding-left: 5px;
+box-shadow: 0 1px 1px #CECECE;
+}
+
+
+#span12{
+width: 99.05%;
+}
